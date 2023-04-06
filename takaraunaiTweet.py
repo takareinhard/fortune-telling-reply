@@ -5,9 +5,9 @@ from requests_oauthlib import OAuth1Session
 import time
 import traceback
 import tweepy
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-load_dotenv('.env') 
+# load_dotenv('.env') 
 
 
 # Twitter APIの認証情報を設定
