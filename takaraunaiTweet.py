@@ -1,4 +1,3 @@
-import requests
 import os
 import json
 import openai
@@ -6,7 +5,6 @@ from requests_oauthlib import OAuth1Session
 import time
 import traceback
 import tweepy
-import os
 from dotenv import load_dotenv
 
 load_dotenv('.env') 
