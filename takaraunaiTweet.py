@@ -116,7 +116,7 @@ def get_stream(headers):
                             completion = openai.ChatCompletion.create(
                                 model = 'gpt-3.5-turbo',
                                 messages = [
-                                    {'role': 'user', 'content': 'あなたは占い師です。水晶玉の中に見えるもので占ってください。日本語で10文字以内でおねがいします。'}
+                                    {'role': 'user', 'content': 'あなたは占い師です。水晶玉の中に見えるもので占ってください。日本語で100文字以内でおねがいします。'}
                                 ],
                             temperature = 0  
                         )
