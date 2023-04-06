@@ -5,4 +5,4 @@ consumer_secret = "rr0Gza54VSjgmYFXhMgIeT4thg1bNr5VDcIEey7KvrUnhfooqc"
 access_token = "72690686-CnmTKoAc0kM1zQBX2zrxepwIWjX4PfIfI3uEVdFUR"
 access_token_secret = "ohDRnSSFcJG4nbsUHCRVudrcefkbcJePIaljLzDlsDI33"
 
-openai.api_key = "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"
+openai.api_key = "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"
