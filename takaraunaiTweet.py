@@ -95,12 +95,7 @@ def get_stream(headers):
                         )
                     )
                     
-                start_time = time.time()
-                timeout = 30  # タイムアウト時間（秒）    
-
                 for response_line in response.iter_lines():
-                    if time.time() - start_time > timeout:
-                        break  # タイムアウト時間が経過した場合、ストリームを閉じる
                     if response_line:
                         json_response = json.loads(response_line)
                         tweet_id = json_response["data"]["id"] #ツイートID
@@ -108,8 +103,7 @@ def get_stream(headers):
 
                         # 既に返信したツイートIDであればスキップ
                         if tweet_id in replied_tweet_ids:
-                            continue
-                        
+                            continue   
 
                         if "占って" in reply_text:
                             
